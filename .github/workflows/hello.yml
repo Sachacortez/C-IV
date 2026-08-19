@@ -11,3 +11,7 @@ jobs:
         run: echo "Hello world"
       - name: Download code
         uses: actions/checkout@v4
+      - name: Which folder 
+        uses: pwd
+      - name: Archive list
+        uses: ls -la

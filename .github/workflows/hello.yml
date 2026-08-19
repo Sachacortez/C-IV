@@ -12,6 +12,6 @@ jobs:
       - name: Download code
         uses: actions/checkout@v4
       - name: Where 
-        uses: pwd
+        run: pwd
       - name: List
-        uses: ls -la
+        run: ls -la

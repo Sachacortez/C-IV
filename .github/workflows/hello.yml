@@ -20,4 +20,4 @@ jobs:
       - name: Verify node 
         run: node --version
       - name: See npm
-        run: Verify --version
+        run: npm init -y

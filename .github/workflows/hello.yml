@@ -16,7 +16,7 @@ jobs:
       - name: List
         run: ls -la
       - name: Install node
-        run: actions/setup-node@v4
+        uses: actions/setup-node@v4
       - name: Verify node 
         run: node --version
       - name: See npm

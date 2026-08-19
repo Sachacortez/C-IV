@@ -1,0 +1,22 @@
+{
+  "name": "c-iv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check:js" : "eslint ." 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sachacortez/C-IV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sachacortez/C-IV/issues"
+  },
+  "homepage": "https://github.com/Sachacortez/C-IV#readme"
+}
